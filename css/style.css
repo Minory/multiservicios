@@ -1,0 +1,53 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #F0F0F0;
+}
+
+h1{
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+
+h2{
+    font-size: 25px !important;
+
+}
+
+.btn_enviar_form{
+
+}
+.logo_web{
+    height: 120px;
+}
+.titles{
+    text-align: center;
+    background-color: #ef5350;
+    padding: 1em;
+    color: #F0F0F0;
+    
+}
+.formulario{
+    padding: 1em;
+    text-align: center;
+}
+#form_datos{
+    display:none;
+}
+#form_register{
+    display:block;
+    padding: 2em;
+}
+
+.form_register__email{
+    width: 300px !important;
+}
+.form_register__password{
+    width: 300px !important;
+}
+.container_input_register{
+    display:inline-block;
+    margin: 30px;
+}
+#register-user{
+    background-color: #ffa726;
+}
