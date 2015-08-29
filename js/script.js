@@ -3,15 +3,19 @@
 
     var userName = $("#user_name");
     var userDni = $("#user_dni");
+    var userCuenta = $("#user_cuenta");
+    var userTcuenta = $("#user_type_cuenta");
 
     $('#button_send').click(function () {
         //FIELD VALUES
 	      var uN = userName.val();
 	      var uD = userDni.val();
-        console.log("click");
+	      var uC = userCuenta.val();
+	      var uTC = userTcuenta.val();
+     
 
         //SAVE DATA TO FIREBASE AND EMPTY FIELD
-	      data.push({name:uN, dni:uD})
+	      data.push({name:uN, dni:uD, cuenta:uC, tipo_cuenta:uTC})
    });
 
 
