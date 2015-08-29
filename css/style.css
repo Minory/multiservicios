@@ -1,53 +1,43 @@
 body{
     font-family: 'PT Sans', sans-serif;
-    background-color: #F0F0F0;
-}
+    background-color: #f0f0f0}
 
 h1{
-    font-size: 50px !important;
-    font-weight: bold !important;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 h2{
-    font-size: 25px !important;
+    font-size: 25px;
 
 }
 
-.btn_enviar_form{
-
-}
-.logo_web{
-    height: 120px;
-}
-.titles{
-    text-align: center;
-    background-color: #ef5350;
-    padding: 1em;
-    color: #F0F0F0;
-    
-}
-.formulario{
-    padding: 1em;
+header {
     text-align: center;
 }
-#form_datos{
-    display:none;
-}
-#form_register{
-    display:block;
-    padding: 2em;
-}
 
-.form_register__email{
-    width: 300px !important;
-}
-.form_register__password{
-    width: 300px !important;
+
+.footer-copyright {
+    background-color: #ff8f00 ;
+    height: 100px;
+    padding: 30px;
 }
 .container_input_register{
-    display:inline-block;
-    margin: 30px;
+    width: 500px;  
+    margin: 0 auto;
+    padding: 30px;
+
+
 }
-#register-user{
-    background-color: #ffa726;
+
+.contenedor{
+    text-align: center;
+    width: 100%;
+    margin: 42px 0;
+
+}
+.fa-facebook-official{
+    font-size: 40px;
+    color: #f0f0f0;
+    float: right;
 }

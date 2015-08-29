@@ -10,16 +10,25 @@
 	<link href="css/materialize.min.css" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
-  <h1>Proyecto</h1>
-  <div>
-    <form id="form_register">
-      
-      <div class="container_input_register">
+	<header>
+	 <div style="display:block;width:100%">
+		<h1 style="display:inline-block">Multiservicio</h1>
+		<img style="width:100px; display:inline-block" src="http://fc02.deviantart.net/fs16/f/2007/224/3/e/konata_chan_by_amf0.png" alt="Logo">
+	</div>
+	</header>
+  
 
+  <div class="contenedor">
+    <div class="grey lighten-2 z-depth-5 container_input_register">
+
+    <form id="form_register">
         <div class="input-field col s12 form_register__email">
           <input id="user_name" type="text" name="user_name">
           <label for="user_name">Nombre</label>
@@ -34,19 +43,20 @@
           <input id="user_cuenta" type="number" name="user_dni">
           <label for="user_cuenta">CUENTA</label>
         </div>
-
-
         <div class="input-field col s12 form_register__password">
           <input id="user_type_cuenta" type="text" name="user_dni">
           <label for="user_type_cuenta">T.Cuenta</label>
         </div>
-
-
         <a id="button_send" class="btn waves-effect waves-light" type="submit" name="action">Enviar <i class="material-icons">send</i></a>
-      </div>
     </form>
-  </div>
+     </div>
 
+    </div>
+
+	<div class="footer-copyright">
+	<a href="http://facebook.com/minory.gn" target="blank"><i class="fa fa-facebook-official"></i></a>
+		
+	</div>
   <script src="js/script.js"></script>
 </body>
 </html>
