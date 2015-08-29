@@ -11,17 +11,27 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
   <h1>Proyecto</h1>
   <div>
-    <form>
-      <input id="user_name" type="text" name="user_name">
-      <label for="user_name">Nombre</label>
-      <input id="user_dni" type="text" name="user_dni">
-      <label for="user_dni">Dni</label>
-      <div id="button_send">
-        <p>enviar</p>
+    <form id="form_register">
+      
+      <div class="container_input_register">
+
+        <div class="input-field col s12 form_register__email">
+          <input id="user_name" type="text" name="user_name">
+          <label for="user_name">Nombre</label>
+        </div>
+
+        <div class="input-field col s12 form_register__password">
+          <input id="user_dni" type="text" name="user_dni">
+          <label for="user_dni">Dni</label>
+        </div>
+        <div id="button_send">
+          <p>enviar</p>
+        </div>
       </div>
     </form>
   </div>
